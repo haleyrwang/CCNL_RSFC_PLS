@@ -24,9 +24,9 @@ pip install numpy pandas matplotlib scipy scikit-learn nibabel seaborn
 ## Project Structure
 The project is structured to follow a specific analysis workflow. Here's how to navigate through the notebooks in the recommended order:
 
-- [HCPEP_main.ipynb](https://github.com/haleyrwang/CCNL_DecodingEP/blob/main/Code/HCPEP_PLS.ipynb): Starts with the Partial Least Squares (PLS) analysis. This notebook is the entry point for understanding the primary patterns and relationships within the EP cohort data. It also includes visualizations and figures for the manuscript.
-- [HCPEP_GSRlv0.ipynb](https://github.com/haleyrwang/CCNL_DecodingEP/blob/main/Code/HCPEP_PLS.ipynb): This notebook contains the PLS analysis parallell to the main analysis, but used the global signal regression (GSR) version of RSFC raw features. This result is reported in the supplementary material in the paper.
-- [HCPEP_behav_correlation.ipynb](https://github.com/haleyrwang/CCNL_DecodingEP/blob/main/Code/HCPEP_post_hoc.ipynb): Follows the PLS analysis with post-hoc assessments to delve deeper into the findings from the PLS analysis, correlating NIH behaviral self-report data using emotion batteries with PLS identified clincal loadings.
+- [HCPEP_main.ipynb](https://github.com/haleyrwang/CCNL_RSFC_PLS/blob/main/Code/HCPEP_main.ipynb): Starts with the Partial Least Squares (PLS) analysis. This notebook is the entry point for understanding the primary patterns and relationships within the EP cohort data. It also includes visualizations and figures for the manuscript.
+- [HCPEP_GSRlv0.ipynb](https://github.com/haleyrwang/CCNL_RSFC_PLS/blob/main/Code/HCPEP_GSRlv0.ipynb): This notebook contains the PLS analysis parallel to the main analysis, but uses the global signal regression (GSR) version of RSFC raw features. This result is reported in the supplementary material in the paper.
+- [HCPEP_behav_correlation.ipynb](https://github.com/haleyrwang/CCNL_RSFC_PLS/blob/main/Code/HCPEP_behav_correlation.ipynb): Follows the PLS analysis with post-hoc assessments to delve deeper into the findings from the PLS analysis, correlating NIH behavioral self-report data using emotion batteries with PLS identified clinical loadings.
 
 
 ## Folder Structure
